@@ -28,4 +28,10 @@
     3. The terminal panel should open at the bottom of the VSCode window.
     4. Click on the terminal panel to bring it into focus, then type `git --version`.
     5. You should see something similar to, but probably different from, `git version 2.33.0.windows.2`.
+
+4. Configure git to be able to make best use of git and GitHub. All changes need to be associated with a person, because GitHub is collaborative.
+
+    1. Open a new terminal.
+    2. Enter your natural name with the command `git config --global user.name "$NAME"`
+    3. Enter your email address with the command `git config --global user.email "$EMAIL"`.
   
